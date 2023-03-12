@@ -41,8 +41,13 @@ const NavBar = () => {
     const selectedOption = menuOptions[btnText];
     if (selectedOption) {
       selectedOption();
-    } else {
-      updateMenuState(false, false, false, false); //discover, help, profile, notification
+    }
+
+    if (discover) {
+      setDiscover(false);
+    }
+    if (help) {
+      setHelp(false);
     }
   };
 
