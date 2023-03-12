@@ -5,6 +5,7 @@ import { BsSearch } from "react-icons/bs";
 import { CgMenuLeft, CgMenuRight } from "react-icons/cg";
 import { Discover, HelpCenter, Notification, Profile, SideBar } from "./index";
 import { Button } from "../componentsIndex";
+import Image from "next/image";
 
 import images from "../../img";
 
@@ -135,7 +136,7 @@ const NavBar = () => {
           </div>
           {/* MENU BUTTON */}
           <div className={Style.navbar_container_right_menuBtn}>
-            <CgMenuRight className={Style.menuIcon} onClick={openSideVar} />
+            <CgMenuRight className={Style.menuIcon} onClick={openSideBar} />
           </div>
         </div>
       </div>
