@@ -12,64 +12,60 @@ import images from "../../img";
 const DISCOVER = "Discover";
 const HELP_CENTER = "Help Center";
 
-const NavBar = () => {
-  const [discover, setDiscover] = useState(false);
-  const [help, setHelp] = useState(false);
-  const [profile, setProfile] = useState(false);
-  const [notification, setNotification] = useState(false);
-  const [openSideMenu, setOpenSideMenu] = useState(false);
+const defState = {
+  discover: false,
+  help: false,
+  notification: false,
+  profile: false,
+  openSideMenu: false,
+};
 
-  const updateMenuState = (discover, help, profile, notification) => {
-    setDiscover(discover);
-    setHelp(help);
-    setProfile(profile);
-    setNotification(notification);
-  };
+const NavBar = () => {
+  const [menuState, setMenuState] = useState(defState);
+
+  const { discover, help, notification, profile, openSideMenu } = menuState;
+
+  const closeAll = () => setMenuState(defState);
 
   const openMenu = (e) => {
     const btnText = e.target.innerText;
-
-    const menuOptions = {
-      [DISCOVER]: () => {
-        updateMenuState(true, false, false, false); //discover, help, profile, notification
-      },
-      [HELP_CENTER]: () => {
-        updateMenuState(false, true, false, false); //discover, help, profile, notification
-      },
-    };
-
-    const selectedOption = menuOptions[btnText];
-    if (selectedOption) {
-      selectedOption();
-    }
-
-    if (discover) {
-      setDiscover(false);
-    }
-    if (help) {
-      setHelp(false);
-    }
+    setMenuState({
+      discover: !discover && btnText === DISCOVER,
+      help: !help && btnText === HELP_CENTER,
+      notification: false,
+      profile: false,
+      openSideMenu: false,
+    });
   };
 
   const openNotification = () => {
-    if (!notification) {
-      updateMenuState(false, false, false, true); //discover, help, profile, notification
-    } else {
-      setNotification(false);
-    }
+    setMenuState((prevState) => ({
+      ...prevState,
+      notification: !prevState.notification,
+      discover: false,
+      help: false,
+      profile: false,
+    }));
   };
 
   const openProfile = () => {
-    if (!profile) {
-      updateMenuState(false, false, true, false); //discover, help, profile, notification
-    } else {
-      setProfile(false);
-    }
+    setMenuState((prevState) => ({
+      ...prevState,
+      profile: !prevState.profile,
+      discover: false,
+      help: false,
+      notification: false,
+    }));
   };
 
-  const openSideBar = () => setOpenSideMenu(!openSideMenu);
+  const openSideBar = () => {
+    setMenuState((prevState) => ({
+      ...prevState,
+      openSideMenu: !prevState.openSideMenu,
+    }));
+  };
 
-  useState(() => {}, []);
+  const { currentAccount, connectWallet } = {};
 
   return (
     <div className={Style.navbar}>
@@ -150,7 +146,7 @@ const NavBar = () => {
       {openSideMenu && (
         <div className={Style.sideBar}>
           <SideBar
-            setOpenSideMenu={setOpenSideMenu}
+            setOpenSideMenu={openSideBar}
             currentAccount={currentAccount}
             connectWallet={connectWallet}
           />
