@@ -1,9 +1,10 @@
 import Style from "../styles/index.module.css";
-import { HeroSection } from "@/components/componentsIndex";
+import { HeroSection, Service } from "@/components/componentsIndex";
 const Home = () => {
   return (
     <div className={Style.homePage}>
       <HeroSection />
+      <Service />
     </div>
   );
 };
