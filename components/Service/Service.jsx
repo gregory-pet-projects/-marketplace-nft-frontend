@@ -1,4 +1,4 @@
-import ServiceBoxItem from "./components/ServiceBoxItem";
+import ServiceBoxItem from "./components/BoxItem/ServiceBoxItem";
 import Style from "./Service.module.css";
 
 const serviceBoxesList = [
