@@ -1,5 +1,5 @@
 import Style from "./ServiceBoxItem.module.css";
-import images from "../../../img";
+import images from "../../../../img";
 import Image from "next/image";
 
 const ServiceBoxItem = ({ step, label, text, imgName, alt }) => (
