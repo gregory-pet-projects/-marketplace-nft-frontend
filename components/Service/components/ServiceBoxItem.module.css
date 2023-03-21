@@ -1,0 +1,16 @@
+.service_box_item img {
+  width: 100px;
+  height: auto;
+}
+.service_box_item {
+  text-align: center;
+}
+.service_box_item_step span {
+  padding: 0.5rem 1.5rem;
+  border-radius: 5rem;
+  background-color: var(--icons-color);
+  color: var(--shadow-dark-color);
+}
+.service_box_item_step {
+  margin: 3rem 0 2rem;
+}

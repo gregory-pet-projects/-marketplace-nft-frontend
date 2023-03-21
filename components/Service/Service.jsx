@@ -4,7 +4,7 @@ import Style from "./Service.module.css";
 const serviceBoxesList = [
   {
     step: "Step 1",
-    label: "Filter and Discover",
+    label: "Filter & Discover",
     text: "Connect with wallet, discover, buy NTFs, sell your NFTs and earn money",
     imgName: "service1",
     alt: 'Filter & Discover"',
