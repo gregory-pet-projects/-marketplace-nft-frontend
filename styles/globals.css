@@ -14,7 +14,7 @@
   -.3rem -.3rem 1rem var(--shadow-dark-color)
 } 
 
-/* :root{
+:root.yellow{
   --icons-color: #FFDF2B;
   --icons-light-color: #ffdf2b57;
   --icons-bg-color: #FFDF2B;
@@ -30,7 +30,7 @@
   --box-shadow-2:1px 1px 2px #FFDF2B,
   -1px -1px 2px #FFDF2B;
 
-} */
+}
 
 html,
 body {
