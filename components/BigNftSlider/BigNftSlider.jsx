@@ -72,6 +72,13 @@ const sliderData = [
 ];
 const BigNFTSlider = () => {
   const [idNumber, setIdNumber] = useState(1);
-  return <div className={Style.bigNftSlider}></div>;
+  return (
+    <div className={Style.bigNFTSlider}>
+      <div className={Style.bigNFTSlider_box}>
+        <div className={Style.bigNFTSlider_box_left}></div>
+        <div className={Style.bigNFTSlider_box_right}></div>
+      </div>
+    </div>
+  );
 };
 export default BigNFTSlider;
