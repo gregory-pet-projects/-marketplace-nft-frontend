@@ -1,4 +1,4 @@
-import Style from "./BigNftSlider.module.css";
+import Style from "./BigNFTSlider.module.css";
 import { AiFillFire, AiFillHeart, AiOutlineHeart } from "react-icons/ai";
 import { MdVerified, MdTimer } from "react-icons/md";
 import { TbArrowBigLeftLines } from "react-icons/tb";
@@ -70,8 +70,8 @@ const sliderData = [
     },
   },
 ];
-const BigNftSlider = () => {
-    const [idNumber, setIdNumber] = useState(1);
+const BigNFTSlider = () => {
+  const [idNumber, setIdNumber] = useState(1);
   return <div className={Style.bigNftSlider}></div>;
 };
-export default BigNftSlider;
+export default BigNFTSlider;
