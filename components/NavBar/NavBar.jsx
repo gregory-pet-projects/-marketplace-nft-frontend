@@ -73,12 +73,7 @@ const NavBar = () => {
         {/* LEFT SECTION */}
         <div className={Style.navbar_container_left}>
           <div className={Style.logo}>
-            <Image
-              src={images.logo}
-              alt="NFT Market place"
-              width={100}
-              height={100}
-            />
+            <Image src={images.logo} alt="NFT Market place" />
           </div>
           <div className={Style.navbar_container_left_box_input}>
             <div className={Style.navbar_container_left_box_input_box}>
@@ -118,7 +113,7 @@ const NavBar = () => {
 
           {/* CREATE BUTTON SECTION */}
           <div className={Style.navbar_container_right_button}>
-            <Button text="Create" />
+            <Button btnName="Create" />
           </div>
 
           {/* USER PROFILE */}

@@ -27,6 +27,10 @@
   color: var(--icons-color);
   font-size: 4rem;
 }
+.logo img{
+    width: 100px;
+    height: fit-content;
+}
 
 .navbar_container_left_box_input_box{
     width: 60%;
