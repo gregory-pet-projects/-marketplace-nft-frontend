@@ -3,6 +3,7 @@ import {
   BigNFTSilder,
   HeroSection,
   Service,
+  Subscribe,
 } from "@/components/componentsIndex";
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <HeroSection />
       <Service />
       <BigNFTSilder />
+      <Subscribe />
     </div>
   );
 };
