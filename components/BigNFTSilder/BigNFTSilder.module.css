@@ -168,7 +168,7 @@
   height: auto;
 }
 
-@media screen and (min-width: 320px) and (max-width: 375px) {
+/* @media screen and (min-width: 320px) and (max-width: 375px) {
   .bigNFTSlider_box {
     padding-top: 15rem !important;
   }
@@ -181,13 +181,13 @@
   }
 }
 @media screen and (min-width: 375px) and (max-width: 425px) {
-}
+} */
 
 @media screen and (max-width: 65em) {
-  .bigNFTSlider_box_right_box_like {
+  /* .bigNFTSlider_box_right_box_like {
     top: 1rem;
     right: 1rem;
-  }
+  } */
   .bigNFTSlider_box {
     width: 90%;
     padding-top: 28rem;
