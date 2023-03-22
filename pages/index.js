@@ -1,6 +1,7 @@
 import Style from "../styles/index.module.css";
 import {
   BigNFTSilder,
+  Category,
   HeroSection,
   Service,
   Subscribe,
@@ -17,6 +18,7 @@ const Home = () => {
         heading={"Browse by category"}
         paragraph={"Explore the NFTs in the most featured categories."}
       />
+      <Category />
     </div>
   );
 };
