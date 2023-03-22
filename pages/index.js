@@ -1,6 +1,6 @@
 import Style from "../styles/index.module.css";
 import {
-  BigNftSlider,
+  BigNFTSilder,
   HeroSection,
   Service,
 } from "@/components/componentsIndex";
@@ -9,7 +9,7 @@ const Home = () => {
     <div className={Style.homePage}>
       <HeroSection />
       <Service />
-      <BigNftSlider />
+      <BigNFTSilder />
     </div>
   );
 };
