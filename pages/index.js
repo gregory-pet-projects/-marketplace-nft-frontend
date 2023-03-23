@@ -16,6 +16,10 @@ const Home = () => {
       <HeroSection />
       <Service />
       <BigNFTSilder />
+      <Title
+        heading="Filter by collection "
+        paragraph="Discover the most outstanding NFTs in all topics of life."
+      />
       <Collection />
       <Title
         heading={"Featured NFTs"}
