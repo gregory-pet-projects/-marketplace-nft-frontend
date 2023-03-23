@@ -2,6 +2,7 @@ import Style from "../styles/index.module.css";
 import {
   BigNFTSilder,
   Category,
+  Filter,
   HeroSection,
   Service,
   Subscribe,
@@ -19,6 +20,12 @@ const Home = () => {
         paragraph={"Explore the NFTs in the most featured categories."}
       />
       <Category />
+
+      <Title
+        heading={"Featured NFTs"}
+        paragraph={"Discover the most outstanding NFTs in all topics of life."}
+      />
+      <Filter />
     </div>
   );
 };
