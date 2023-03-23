@@ -9,6 +9,7 @@ import {
   Title,
   NFTCard,
   Collection,
+  FollowerTab,
 } from "@/components/componentsIndex";
 const Home = () => {
   return (
@@ -33,6 +34,8 @@ const Home = () => {
         paragraph={"Explore the NFTs in the most featured categories."}
       />
       <Category />
+
+      <FollowerTab />
 
       <Subscribe />
     </div>
