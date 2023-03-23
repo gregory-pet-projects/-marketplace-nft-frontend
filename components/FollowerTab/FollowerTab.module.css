@@ -91,7 +91,7 @@
     font-size: 1.3rem;
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 425px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 476px) {
     .followerTab{
         padding-block: 6rem;
     }
@@ -121,7 +121,7 @@
     }
 }
 
-@media screen and (min-device-width: 428px) and (max-device-width: 769px) {
+@media screen and (min-device-width: 476px) and (max-device-width: 769px) {
 .followerTab{
     grid-template-columns: repeat(2, 1fr);
   }
@@ -140,7 +140,7 @@
   }
 }
 
-@media screen and (min-device-width: 428px) and (max-device-width: 769px) {
+@media screen and (min-device-width: 476px) and (max-device-width: 769px) {
     .followerTab_title{
         width: 90%;
     }

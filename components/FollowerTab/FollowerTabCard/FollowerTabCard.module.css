@@ -123,13 +123,13 @@
   }
 }
 
-@media screen and (min-device-width: 377px) and (max-device-width: 425px) {
+@media screen and (min-device-width: 377px) and (max-device-width: 476px) {
   .FollowerTabCard_box_profile::before {
     left: 41%;
   }
 }
 
-@media screen and (min-device-width: 427px) and (max-device-width: 768px) {
+@media screen and (min-device-width: 476px) and (max-device-width: 768px) {
   .FollowerTabCard_box_profile::before {
     left: 39.5%;
   }

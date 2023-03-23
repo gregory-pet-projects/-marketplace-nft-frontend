@@ -162,7 +162,7 @@
   }
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 425px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 476px) {
   .NFTCard {
     width: 90%;
     margin: 0 auto;
@@ -179,7 +179,7 @@
   }
 }
 
-@media screen and (min-device-width: 427px) and (max-device-width: 768px) {
+@media screen and (min-device-width: 476px) and (max-device-width: 768px) {
   .NFTCard {
     width: 90%;
     grid-template-columns: 1fr;

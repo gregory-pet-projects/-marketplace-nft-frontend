@@ -74,7 +74,7 @@
     }
 }
 
-@media screen and (min-device-width: 377px) and (max-device-width: 425px) {
+@media screen and (min-device-width: 377px) and (max-device-width: 476px) {
     .filter_box{
         display: grid;
         gap: 4rem;
@@ -100,7 +100,7 @@
 
 }
 
-@media screen and (min-device-width: 427px) and (max-device-width: 786px) {
+@media screen and (min-device-width: 476px) and (max-device-width: 786px) {
     .filter_box{
         display: grid;
         gap: 4rem;

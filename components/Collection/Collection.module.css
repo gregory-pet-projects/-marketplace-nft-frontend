@@ -65,7 +65,7 @@
 }
 
 
-@media screen and (min-device-width: 320px) and (max-device-width: 425px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 476px) {
     .collection_title{
         width: 90%;
     }
@@ -85,7 +85,7 @@
     }
 }
 
-@media screen and (min-device-width: 427px) and (max-device-width: 1024px) {
+@media screen and (min-device-width: 476px) and (max-device-width: 1024px) {
     .collection_title{
         width: 90%;
     }
