@@ -1,4 +1,3 @@
-import React from "react";
 import { FaWallet, FaMusic, FaVideo, FaImages } from "react-icons/fa";
 import { MdVerified } from "react-icons/md";
 import Style from "./Filter.module.css";
