@@ -45,6 +45,7 @@ const NFTCard = ({}) => {
     <div className={Style.NFTCard}>
       {CardArray.map(({ image, name, tokenId, price }, idx) => (
         <Link
+          key={`${name}-${idx}`}
           href={{
             pathname: "/NFT-details",
             query: { image, name, tokenId, price },
