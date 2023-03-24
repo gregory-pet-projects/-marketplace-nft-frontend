@@ -11,6 +11,7 @@ import {
   Collection,
   FollowerTab,
   AudioLive,
+  Slider,
 } from "@/components/componentsIndex";
 const Home = () => {
   return (
@@ -42,6 +43,11 @@ const Home = () => {
       <Category />
 
       <FollowerTab />
+      <Title
+        heading={"Explore NFTs video"}
+        paragraph={"Click on play icon and enjoy NFTs videos"}
+      />
+      <Slider />
 
       <Subscribe />
     </div>
