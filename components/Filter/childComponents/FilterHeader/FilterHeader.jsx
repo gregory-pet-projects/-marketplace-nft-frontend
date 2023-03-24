@@ -5,7 +5,9 @@ const FilterHeader = ({ listButtons, toggleFilter, filter }) => (
   <div className={Style.filter_box}>
     <div className={Style.filter_box_left}>
       {listButtons.map(({ title, onClick }, idx) => (
-        <button onClick={onClick}>{title}</button>
+        <button onClick={onClick} key={idx}>
+          {title}
+        </button>
       ))}
     </div>
 
