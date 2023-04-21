@@ -1,39 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NFT Market Place
+An NFT marketplace dApp is a decentralized application that allows users to buy, sell, and trade non-fungible tokens (NFTs) on a blockchain network. NFTs are unique digital assets that are stored on a blockchain, and can be used to represent anything from artwork to music to virtual real estate.
 
-## Getting Started
+The NFT marketplace dApp provides a platform for users to browse, discover, and purchase NFTs from a variety of creators and artists. It typically includes features such as search and filtering, bidding and auction functionality, and user profiles and ratings.
 
-First, run the development server:
+Because the marketplace is decentralized, transactions are typically conducted using cryptocurrency, and there is no centralized authority that controls the buying and selling of NFTs. This allows for greater transparency and security, and enables creators to receive a greater share of the revenue generated from the sale of their NFTs.
+
+Overall, an NFT marketplace dApp is a powerful tool for creators and collectors alike, providing a decentralized platform for the discovery, buying, and selling of unique digital assets. It represents an exciting opportunity for artists and content creators to monetize their work, while also providing a new form of digital ownership and value transfer.
+
+## Technologies Used
+Client:
+- React
+- NextJS
+
+SmartContract:
+- hardhat
+- openzeppelin
+- nomicfoundation
+
+## Screenshots
+<div align="left">
+    <img src="https://firebasestorage.googleapis.com/v0/b/pet-projects-db.appspot.com/o/Portfolio%20previews%2Fnft-market-place%2FScreenshot%202023-04-21%20at%2016.08.03.png?alt=media&token=ebbab400-18ab-4560-8094-a06a06267461" width="300px"</img> 
+     <img src="https://firebasestorage.googleapis.com/v0/b/pet-projects-db.appspot.com/o/Portfolio%20previews%2Fnft-market-place%2FScreenshot%202023-04-21%20at%2016.08.13.png?alt=media&token=af9d0a36-156d-4062-8ffa-0e537d9d92ea" width="300px"</img> 
+      <img src="https://firebasestorage.googleapis.com/v0/b/pet-projects-db.appspot.com/o/Portfolio%20previews%2Fnft-market-place%2FScreenshot%202023-04-21%20at%2016.08.25.png?alt=media&token=366a4de7-65ef-44ca-ac04-db4efc057b15" width="300px"</img> 
+            <img src="https://firebasestorage.googleapis.com/v0/b/pet-projects-db.appspot.com/o/Portfolio%20previews%2Fnft-market-place%2FScreenshot%202023-04-21%20at%2016.09.11.png?alt=media&token=5152cbba-1349-4e90-9151-a556dfea30fd" width="300px"</img> 
+
+</div>
+
+Install project with npm
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+  https://github.com/gregory-pet-projects/marketplace-nft-frontend.git
+  npm i
+  cd marketplace-nft-frontend
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Run project
+```bash
+  npm start
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# -marketplace-nft-frontend
+### Application still in progress (get updates soon)
